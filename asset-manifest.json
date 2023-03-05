@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Relatoria2/static/css/main.c593c4c6.css",
+    "main.js": "/Relatoria2/static/js/main.e47d394d.js",
+    "static/js/787.83d00fdf.chunk.js": "/Relatoria2/static/js/787.83d00fdf.chunk.js",
+    "index.html": "/Relatoria2/index.html",
+    "main.c593c4c6.css.map": "/Relatoria2/static/css/main.c593c4c6.css.map",
+    "main.e47d394d.js.map": "/Relatoria2/static/js/main.e47d394d.js.map",
+    "787.83d00fdf.chunk.js.map": "/Relatoria2/static/js/787.83d00fdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c593c4c6.css",
+    "static/js/main.e47d394d.js"
+  ]
+}
