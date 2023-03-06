@@ -46,6 +46,15 @@ const p43 =
   const p44 = 
   "Finalmente, si bien concluimos que hubo un \"emblaquecimiento\" de la música de Lucho, es importante no ignorar las razones de ello. Lucho Bermudez se expuso a un contexto cultural muy diferente al llegar a Bogotá. Más allá de rechazar sus origenes, en mi opinión los adaptó para poder darles mayor popularidad nacional e internacional. Esto es un debate que aún sigue sinedo discutido, pero considero peritnente redirigirlo hacia las intenciones más allá de si hubo o no transformación (porque para mí es muy claro que la hubo).";
   
+
+// References 
+
+const ref1 = ""
+const linkRef1 = "https://www.senalmemoria.co/piezas/lucho-bermudez-natalicio"
+const ref2 = ""
+const linkRef2 = "http://cumbiapoder.blogspot.com/2012/01/prende-la-vela-de-la-cumbia-lucho.html"
+const ref3 = "Wade, P. (2012) Música, Raza y Nación: Música tropical en Colombia."
+
 function App() {
   return (
     <>
