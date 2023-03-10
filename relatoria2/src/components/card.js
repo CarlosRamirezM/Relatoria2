@@ -6,18 +6,7 @@ function Card(props) {
       </div>
       <div className="row align-items-center">
         {!props.col && (
-          <div className="col align-middle">
-            {props.video && (
-              <iframe
-                width="560"
-                height="315"
-                src={props.video}
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            )}
+          <div className="col align-middle">            
             {props.img && (
               <img
                 src={props.img}
@@ -28,9 +17,21 @@ function Card(props) {
           </div>
         )}
         <div className="col">
+        {props.video && (
+              <iframe
+                className="object-fit-cover border rounded"
+                width="50%"
+                height="100%"
+                src={props.video}
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            )}
           {props.paragraphs.map((p) => (
             <p className="text">{p}</p>
-          ))}
+          ))}          
         </div>
       </div>
     </div>

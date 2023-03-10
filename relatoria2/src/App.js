@@ -71,10 +71,10 @@ function App() {
         <h2 className="subtitle"> El formato de Lucho </h2>
         <div className="row">
           <div className="col-6">
-            <Card title={title2} video={video2} paragraphs={[p21, p22]} />
+            <Card col="1" title={title2} video={video2} paragraphs={[p21, p22]} />
           </div>
           <div className="col-6">
-            <Card title={title3} video={video3} paragraphs={[p31, p32]} />
+            <Card col="1" title={title3} video={video3} paragraphs={[p31, p32]} />
           </div>
         </div>
       </div>
